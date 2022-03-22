@@ -15,26 +15,26 @@ router.get('/', async (req, res) => {
     });
     
     res.status(200).json(categoryFind);
-    } catch (err) {
-      res.status(400).json(err);
-    }
+  } catch (err) {
+    res.status(400).json(err);
+  }
 });
 
 router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
   try {
-    const findOneCategory = await Category.findOne({
-      where: {
-        id: req.params.id
-      },
-      include: {
-        model: Product,
-        attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+    const findPkCategory = await Category.findByPk(
+      req.params.id,
+      {
+        include: {
+          model: Product,
+          attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+        }
       }
-    });
+    );
 
-    res.status(200).json(findOneCategory);
+    res.status(200).json(findPkCategory);
   } catch (err) {
     res.status(400).json(err);
   }
