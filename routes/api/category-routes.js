@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
         attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
       }
     });
-
+    
     res.status(200).json(categoryFind);
     } catch (err) {
       res.status(400).json(err);
@@ -56,11 +56,16 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   // update a category by its `id` value
   try {
-    const updateCategory = await Category.update({
-      where: {
-        id: req.params.id
-      }
-    });
+    const updateCategory = await Category.update(
+      {
+        ...req.body
+      },
+      {
+        where: {
+          id: req.params.id
+        }
+      }  
+    );
 
     res.status(200).json(updateCategory);
   } catch (err) {
