@@ -33,7 +33,7 @@ Click on the image to go to a video of the application using CRUD operations
 
 [![CRUD](./public/images/postmanE.png)](https://drive.google.com/file/d/1Ma-W7szWdrGeQH8d_RmE2fGLLiTMgzHt/view)
 
-Click on the image to view Product Get, Post, Delete
+Click on the image to go to a video of Product Get, Post, Delete
 
 [![CRUD](./public/images/postmanP.png)](https://drive.google.com/file/d/1-7gnkFUivJLrKxTpoCjqwIZIsCIrOGPl/view)
 
