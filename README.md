@@ -52,7 +52,7 @@ MySQL | ecommerce_db
 After acquiring code and installing all dependencies, connect to and create database</br> by running `npm run seed` within the terminal. The application needs data</br>
 to be able to function properly.</br>
 
-Click on the image to go to a video of the application sourcing a database
+_Click on the image to go to a video of the application sourcing a database_
 
 [![SOURCE_DATABASE](./public/images/databaseE.png)](https://drive.google.com/file/d/1LJILkNWs-UfGcjsibDqBv7p7H9zAqJtY/view)
 
@@ -60,11 +60,11 @@ This application connects to a local host server after running `node server` or<
 `npm run start` within the terminal. From here we can open postman or insomnia.</br>
 While in postman or insomnia the created routes can be used for CRUD operations.</br>
 
-Click on the image to go to a video of the application using CRUD operations
+_Click on the image to go to a video of the application using CRUD operations_
 
 [![CRUD](./public/images/postmanE.png)](https://drive.google.com/file/d/1Ma-W7szWdrGeQH8d_RmE2fGLLiTMgzHt/view)
 
-Click on the image to go to a video of more CRUD operations
+_Click on the image to go to a video of more CRUD operations_
 
 [![CRUD](./public/images/postmanP.png)](https://drive.google.com/file/d/1-7gnkFUivJLrKxTpoCjqwIZIsCIrOGPl/view)
 
