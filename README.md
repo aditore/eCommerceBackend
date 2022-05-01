@@ -49,7 +49,8 @@ MySQL | ecommerce_db
 
 ## Usage
 
-After acquiring code and installing all dependencies, connect to and create database</br> by running `npm run seed` within the terminal. The application needs data</br>
+After acquiring code and installing all dependencies, connect to and create database</br> 
+by running `npm run seed` within the terminal. The application needs data</br>
 to be able to function properly.</br>
 
 _Click on the image to go to a video of the application sourcing a database_
